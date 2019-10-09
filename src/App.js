@@ -35,7 +35,7 @@ export default class App extends React.Component {
                     onChange={handleInputChange} />
                 );
               }
-          
+
               return (
                 <span onClick={enableEditMode}>
                   {this.state.title}
@@ -46,7 +46,7 @@ export default class App extends React.Component {
         </InlineEdit>
 
 
-        {/* <br />
+        <br />
         <input value={this.state.name} onChange={this.handleChange} />
         <br />
         <div>
@@ -63,7 +63,7 @@ export default class App extends React.Component {
               );
             }
           }
-        </RemainingCharacters> */}
+        </RemainingCharacters>
       </div>
     );
   }

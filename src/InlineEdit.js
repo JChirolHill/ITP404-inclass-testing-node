@@ -52,14 +52,16 @@ export default class InlineEdit extends React.Component {
     if (this.state.editMode) {
       return (
         <input
+          data-testid="inline-edit-input"
           value={this.state.currentValue}
           onKeyUp={this.handleKeyUp}
           onChange={this.handleChange} />
       );
     }
 
+    // use a data-testid attr to be able to access this value in component
     return (
-      <span onClick={this.enableEditMode}>
+      <span data-testid="inline-edit-text" onClick={this.enableEditMode}>
         {this.props.value}
       </span>
     );
