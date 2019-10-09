@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JChirolHill/ITP404-inclass-testing-node.svg?branch=master)](https://travis-ci.org/JChirolHill/ITP404-inclass-testing-node)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
